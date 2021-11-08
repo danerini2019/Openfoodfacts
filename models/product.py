@@ -7,8 +7,11 @@ from models.allergen_product import AllergenProduct
 from models.brand_product import BrandProduct
 from models.category_product import CategoryProduct
 from models.country_product import CountryProduct
+from models.emb_product import EmbProduct
 from models.label_product import LabelProduct
+from models.origin_product import OriginProduct
 from models.package_product import PackageProduct
+from models.product_trace import ProductTrace
 class Product(Base):
     __tablename__ = 'Product'
 
@@ -22,27 +25,18 @@ class Product(Base):
     generic_name = Column(String, nullable=True)
     quantity = Column(String, nullable=True)
     packages = relationship('Package', secondary='PackageProduct', back_populates='products')
-    # packaging = Column(String, nullable=True)
-    # packaging_tags = Column(String, nullable=True)
-    # packaging_text = Column(String, nullable=True)
     brands = relationship('Brand', secondary='BrandProduct', back_populates='products')
-    # brands = Column(String, nullable=True)
-    # brands_tags = Column(String, nullable=True)
     categories = relationship('Category', secondary='CategoryProduct', back_populates='products')
-    # categories = Column(String, nullable=True)
-    # categories_tags = Column(String, nullable=True)
-    # categories_en = Column(String, nullable=True)
-    origins = Column(String, nullable=True)
-    origins_tags = Column(String, nullable=True)
-    origins_en = Column(String, nullable=True)
+    origins = relationship('Country', secondary='OriginProduct', back_populates='products_origins')
+    # origins = Column(String, nullable=True)
+    # origins_tags = Column(String, nullable=True)
+    # origins_en = Column(String, nullable=True)
     manufacturing_places = Column(String, nullable=True)
     manufacturing_places_tags = Column(String, nullable=True)
     labels = relationship('Label', secondary='LabelProduct', back_populates='products')
-    # labels = Column(String, nullable=True)
-    # labels_tags = Column(String, nullable=True)
-    # labels_en = Column(String, nullable=True)
-    emb_codes = Column(String, nullable=True)
-    emb_codes_tags = Column(String, nullable=True)
+    emb_codes = relationship('Emb', secondary='EmbProduct', back_populates='products')
+    # emb_codes = Column(String, nullable=True)
+    # emb_codes_tags = Column(String, nullable=True)
     first_packaging_code_geo = Column(String, nullable=True)
     cities = Column(String, nullable=True)
     cities_tags = Column(String, nullable=True)
@@ -51,19 +45,14 @@ class Product(Base):
     countries = relationship('Country', secondary='CountryProduct', back_populates='products')
     ingredients_text = Column(String, nullable=True)
     allergens = relationship('Allergen', secondary='AllergenProduct', back_populates='products')
-    # allergens = Column(String, nullable=True)
-    # allergens_en = Column(String, nullable=True)
-    traces = Column(String, nullable=True)
-    traces_tags = Column(String, nullable=True)
-    traces_en = Column(String, nullable=True)
+    traces = relationship('Trace', secondary='ProductTrace', back_populates='products')
+    # traces = Column(String, nullable=True)
+    # traces_tags = Column(String, nullable=True)
+    # traces_en = Column(String, nullable=True)
     serving_size = Column(String, nullable=True)
     serving_quantity = Column(String, nullable=True)
     no_nutriments = Column(String, nullable=True)
     additives = relationship('Additive', secondary='AdditiveProduct', back_populates='products')
-    # additives_n = Column(String, nullable=True)
-    # additives = Column(String, nullable=True)
-    # additives_tags = Column(String, nullable=True)
-    # additives_en = Column(String, nullable=True)
     ingredients_from_palm_oil_n = Column(String, nullable=True)
     ingredients_from_palm_oil = Column(String, nullable=True)
     ingredients_from_palm_oil_tags = Column(String, nullable=True)
@@ -264,16 +253,16 @@ class Product(Base):
         # self.categories = categories
         # self.categories_tags = categories_tags
         # self.categories_en = categories_en
-        self.origins = origins
-        self.origins_tags = origins_tags
-        self.origins_en = origins_en
+        # self.origins = origins
+        # self.origins_tags = origins_tags
+        # self.origins_en = origins_en
         self.manufacturing_places = manufacturing_places
         self.manufacturing_places_tags = manufacturing_places_tags
         # self.labels = labels
         # self.labels_tags = labels_tags
         # self.labels_en = labels_en
-        self.emb_codes = emb_codes
-        self.emb_codes_tags = emb_codes_tags
+        # self.emb_codes = emb_codes
+        # self.emb_codes_tags = emb_codes_tags
         self.first_packaging_code_geo = first_packaging_code_geo
         self.cities = cities
         self.cities_tags = cities_tags
@@ -285,9 +274,9 @@ class Product(Base):
         self.ingredients_text = ingredients_text
         # self.allergens = allergens
         # self.allergens_en = allergens_en
-        self.traces = traces
-        self.traces_tags = traces_tags
-        self.traces_en = traces_en
+        # self.traces = traces
+        # self.traces_tags = traces_tags
+        # self.traces_en = traces_en
         self.serving_size = serving_size
         self.serving_quantity = serving_quantity
         self.no_nutriments = no_nutriments

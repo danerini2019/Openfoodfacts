@@ -10,9 +10,11 @@ from models.allergen import Allergen
 from models.brand import Brand
 from models.category import Category
 from models.country import Country
+from models.emb import Emb
+from models.label import Label
 from models.package import Package
 from models.product import Product
-from models.label import Label
+from models.trace import Trace
 from base import Session, engine, Base
 from sqlalchemy.exc import IntegrityError
 
@@ -26,45 +28,6 @@ session = Session()
 df = pd.read_csv("batch.csv", sep='\t')
 df = df.replace({np.nan: None})
 for index, row in df.iterrows():
-    # Countries
-    if row["countries_en"] == None:
-        country_list = ["Unknown"]
-    else:
-        country_list = row["countries_en"].split(',')
-    country_append = []
-    for country_ in country_list:
-        c_id = session.query(Country).filter_by(name_en=country_).first()
-        if c_id == None:
-            c_id = Country(
-                name_en=country_
-            )
-        country_append.append(c_id)
-    # Brands
-    if row["brands"] == None:
-        brand_list = ["Unknown"]
-    else:
-        brand_list = row["brands"].split(',')
-    brand_append = []
-    for brand_ in brand_list:
-        c_id = session.query(Brand).filter_by(name=brand_).first()
-        if c_id == None:
-            c_id = Brand(
-                name=brand_
-            )
-        brand_append.append(c_id)
-    # Allergen
-    if row["allergens"] == None:
-        allergen_list = ["Unknown"]
-    else:
-        allergen_list = row["allergens"].split(',')
-    allergen_append = []
-    for allergen_ in allergen_list:
-        c_id = session.query(Allergen).filter_by(name=allergen_).first()
-        if c_id == None:
-            c_id = Allergen(
-                name=allergen_
-            )
-        allergen_append.append(c_id)
     # Additives
     if row["additives_en"] == None:
         additive_list = ["Unknown"]
@@ -78,6 +41,46 @@ for index, row in df.iterrows():
                 name=additive_
             )
         additive_append.append(c_id)
+    # Allergen
+    if row["allergens"] == None:
+        allergen_list = ["Unknown"]
+    else:
+        allergen_list = row["allergens"].split(',')
+    allergen_append = []
+    for allergen_ in allergen_list:
+        c_id = session.query(Allergen).filter_by(name=allergen_).first()
+        if c_id == None:
+            c_id = Allergen(
+                name=allergen_
+            )
+        allergen_append.append(c_id)
+    # Brands
+    if row["brands"] == None:
+        brand_list = ["Unknown"]
+    else:
+        brand_list = row["brands"].split(',')
+    brand_append = []
+    for brand_ in brand_list:
+        c_id = session.query(Brand).filter_by(name=brand_).first()
+        if c_id == None:
+            c_id = Brand(
+                name=brand_
+            )
+        brand_append.append(c_id)
+    # Countries
+    if row["countries_en"] == None:
+        country_list = ["Unknown"]
+    else:
+        country_list = row["countries_en"].split(',')
+    country_append = []
+    for country_ in country_list:
+        c_id = session.query(Country).filter_by(name_en=country_).first()
+        if c_id == None:
+            c_id = Country(
+                name_en=country_
+            )
+        country_append.append(c_id)
+
     # Categories
     if row["categories"] == None:
         category_list = ["Unknown"]
@@ -91,6 +94,33 @@ for index, row in df.iterrows():
                 name=category_
             )
         category_append.append(c_id)
+
+    # Countries
+    if row["origins"] == None:
+        country_list = ["Unknown"]
+    else:
+        country_list = row["origins"].split(',')
+    origin_append = []
+    for country_ in country_list:
+        c_id = session.query(Country).filter_by(name_en=country_).first()
+        if c_id == None:
+            c_id = Country(
+                name_en=country_
+            )
+        origin_append.append(c_id)
+    # Emb
+    if row["emb_codes"] == None:
+        emb_list = ["Unknown"]
+    else:
+        emb_list = row["emb_codes"].split(',')
+    emb_append = []
+    for emb_ in emb_list:
+        c_id = session.query(Emb).filter_by(name=emb_).first()
+        if c_id == None:
+            c_id = Emb(
+                name=emb_
+            )
+        emb_append.append(c_id)   
     # Labels
     if row["labels"] == None:
         label_list = ["Unknown"]
@@ -117,6 +147,19 @@ for index, row in df.iterrows():
                 name=packaging_
             )
         packaging_append.append(c_id)
+    # Traces
+    if row["traces_en"] == None:
+        trace_list = ["Unknown"]
+    else:
+        trace_list = row["traces_en"].split(',')
+    trace_append = []
+    for trace_ in trace_list:
+        c_id = session.query(Trace).filter_by(name=trace_).first()
+        if c_id == None:
+            c_id = Trace(
+                name=trace_
+            )
+        trace_append.append(c_id)
     # Products
     product = Product(
         code=row["code"],
@@ -128,45 +171,25 @@ for index, row in df.iterrows():
         abbreviated_product_name=row["abbreviated_product_name"],
         generic_name=row["generic_name"],
         quantity=row["quantity"],
-        # packaging=row["packaging"],
-        # packaging_tags=row["packaging_tags"],
-        # packaging_text=row["packaging_text"],
-        # brands = row["brands"],
-        # brands_tags = row["brands_tags"],
-        categories = row["categories"],
-        categories_tags = row["categories_tags"],
-        categories_en = row["categories_en"],
-        origins = row["origins"],
-        origins_tags = row["origins_tags"],
-        origins_en = row["origins_en"],
+        # origins = row["origins"],
+        # origins_tags = row["origins_tags"],
+        # origins_en = row["origins_en"],
         manufacturing_places = row["manufacturing_places"],
         manufacturing_places_tags = row["manufacturing_places_tags"],
-        # labels = row["labels"],
-        # labels_tags = row["labels_tags"],
-        # labels_en = row["labels_en"],
-        emb_codes = row["emb_codes"],
-        emb_codes_tags = row["emb_codes_tags"],
+        # emb_codes = row["emb_codes"],
+        # emb_codes_tags = row["emb_codes_tags"],
         first_packaging_code_geo = row["first_packaging_code_geo"],
         cities = row["cities"],
         cities_tags = row["cities_tags"],
         purchase_places = row["purchase_places"],
         stores = row["stores"],
-        # countries = row["countries"],
-        # countries_tags = row["countries_tags"],
-        # countries_en = row["countries_en"],
         ingredients_text = row["ingredients_text"],
-        allergens = row["allergens"],
-        allergens_en = row["allergens_en"],
         traces = row["traces"],
         traces_tags = row["traces_tags"],
         traces_en = row["traces_en"],
         serving_size = row["serving_size"],
         serving_quantity = row["serving_quantity"],
         no_nutriments = row["no_nutriments"],
-        # additives_n = row["additives_n"],
-        # additives = row["additives"],
-        # additives_tags = row["additives_tags"],
-        # additives_en = row["additives_en"],
         ingredients_from_palm_oil_n = row["ingredients_from_palm_oil_n"],
         ingredients_from_palm_oil = row["ingredients_from_palm_oil"],
         ingredients_from_palm_oil_tags = row["ingredients_from_palm_oil_tags"],
@@ -309,16 +332,22 @@ for index, row in df.iterrows():
         product.additives.append(a)
     for a in allergen_append:
         product.allergens.append(a)
+    for b in brand_append:
+        product.brands.append(b)
     for c in category_append:
         product.categories.append(c)
     for c in country_append:
         product.countries.append(c)
-    for b in brand_append:
-        product.brands.append(b)
+    for e in emb_append:
+        product.emb_codes.append(e)
     for l in label_append:
         product.labels.append(l)
+    for o in origin_append:
+        product.origins.append(o)
     for p in packaging_append:
         product.packages.append(p)
+    for t in trace_append:
+        product.traces.append(t)
     try:
         session.add(product)
         session.commit()
