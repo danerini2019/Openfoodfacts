@@ -15,6 +15,7 @@ from models.label import Label
 from models.package import Package
 from models.product import Product
 from models.trace import Trace
+from models.store import Store
 from base import Session, engine, Base
 from sqlalchemy.exc import IntegrityError
 
@@ -160,6 +161,19 @@ for index, row in df.iterrows():
                 name=trace_
             )
         trace_append.append(c_id)
+    # Stores
+    if row["stores"] == None:
+        store_list = ["Unknown"]
+    else:
+        store_list = row["stores"].split(',')
+    store_append = []
+    for store_ in store_list:
+        c_id = session.query(Store).filter_by(name=store_).first()
+        if c_id == None:
+            c_id = Store(
+                name=store_
+            )
+        store_append.append(c_id)
     # Products
     product = Product(
         code=row["code"],
@@ -171,22 +185,14 @@ for index, row in df.iterrows():
         abbreviated_product_name=row["abbreviated_product_name"],
         generic_name=row["generic_name"],
         quantity=row["quantity"],
-        # origins = row["origins"],
-        # origins_tags = row["origins_tags"],
-        # origins_en = row["origins_en"],
         manufacturing_places = row["manufacturing_places"],
         manufacturing_places_tags = row["manufacturing_places_tags"],
-        # emb_codes = row["emb_codes"],
-        # emb_codes_tags = row["emb_codes_tags"],
         first_packaging_code_geo = row["first_packaging_code_geo"],
         cities = row["cities"],
         cities_tags = row["cities_tags"],
         purchase_places = row["purchase_places"],
         stores = row["stores"],
         ingredients_text = row["ingredients_text"],
-        traces = row["traces"],
-        traces_tags = row["traces_tags"],
-        traces_en = row["traces_en"],
         serving_size = row["serving_size"],
         serving_quantity = row["serving_quantity"],
         no_nutriments = row["no_nutriments"],
@@ -201,14 +207,14 @@ for index, row in df.iterrows():
         nova_group = row["nova_group"],
         pnns_groups_1 = row["pnns_groups_1"],
         pnns_groups_2 = row["pnns_groups_2"],
-        states = row["states"],
-        states_tags = row["states_tags"],
-        states_en = row["states_en"],
+        # states = row["states"],
+        # states_tags = row["states_tags"],
+        # states_en = row["states_en"],
         brand_owner = row["brand_owner"],
-        ecoscore_score_fr = row["ecoscore_score_fr"],
-        ecoscore_grade_fr = row["ecoscore_grade_fr"],
         main_category = row["main_category"],
         main_category_en = row["main_category_en"],
+        ecoscore_score_fr = row["ecoscore_score_fr"],
+        ecoscore_grade_fr = row["ecoscore_grade_fr"],
         image_url = row["image_url"],
         image_small_url = row["image_small_url"],
         image_ingredients_url = row["image_ingredients_url"],
@@ -348,6 +354,8 @@ for index, row in df.iterrows():
         product.packages.append(p)
     for t in trace_append:
         product.traces.append(t)
+    for s in store_append:
+        product.stores.append(s)
     try:
         session.add(product)
         session.commit()

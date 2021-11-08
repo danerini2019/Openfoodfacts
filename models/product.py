@@ -12,6 +12,7 @@ from models.label_product import LabelProduct
 from models.origin_product import OriginProduct
 from models.package_product import PackageProduct
 from models.product_trace import ProductTrace
+from models.product_store import ProductStore
 class Product(Base):
     __tablename__ = 'Product'
 
@@ -41,7 +42,8 @@ class Product(Base):
     cities = Column(String, nullable=True)
     cities_tags = Column(String, nullable=True)
     purchase_places = Column(String, nullable=True)
-    stores = Column(String, nullable=True)
+    # stores = Column(String, nullable=True)
+    stores = relationship('Store', secondary='ProductStore', back_populates='products')
     countries = relationship('Country', secondary='CountryProduct', back_populates='products')
     ingredients_text = Column(String, nullable=True)
     allergens = relationship('Allergen', secondary='AllergenProduct', back_populates='products')
@@ -267,7 +269,7 @@ class Product(Base):
         self.cities = cities
         self.cities_tags = cities_tags
         self.purchase_places = purchase_places
-        self.stores = stores
+        # self.stores = stores
         # self.countries = countries
         # self.countries_tags = countries_tags
         # self.countries_en = countries_en
