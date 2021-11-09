@@ -8,5 +8,6 @@ class Country(Base):
     id = Column(BigInteger, primary_key=True) 
     name_en = Column(String, nullable=False)
     name_fr = Column(String, nullable=True)
+    # cities = relationship('City', back_populates='country')
     products = relationship('Product', secondary='CountryProduct', back_populates='countries')
     products_origins = relationship('Product', secondary='OriginProduct', back_populates='origins')
