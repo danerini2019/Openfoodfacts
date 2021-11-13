@@ -18,10 +18,10 @@ class Product(Base):
 
     code = Column(String, primary_key=True)
     url = Column(String, nullable=False)
-    creator = Column(String, nullable=False)
+    creator = Column(String, nullable=True)
     created_at = Column(TIMESTAMP, nullable=False)
     updated_at = Column(TIMESTAMP, nullable=False)
-    product_name = Column(String, nullable=False)
+    product_name = Column(String, nullable=True)
     abbreviated_product_name = Column(String, nullable=True)
     generic_name = Column(String, nullable=True)
     quantity = Column(String, nullable=True)

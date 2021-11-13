@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # 1 - imports
-from datetime import date
+from datetime import date, datetime
 import pandas as pd
 from pandas import np
 
@@ -24,11 +24,24 @@ Base.metadata.create_all(engine)
 
 # 3 - create a new session
 session = Session()
-
+products = []
 # 4 - create products
-df = pd.read_csv("batch.csv", sep='\t')
+df = pd.read_csv("en.openfoodfacts.org.products.csv", sep='\t', dtype={'code':str})
 df = df.replace({np.nan: None})
+df = df.drop_duplicates(subset=['code'], keep='last')
+length = len(df.index)
+additive_inserted = {}
+allergen_inserted = {}
+brand_inserted    = {}
+category_inserted = {}
+country_inserted = {}
+emb_inserted = {}
+label_inserted = {}
+packaging_inserted = {}
+trace_inserted = {}
+store_inserted = {}
 for index, row in df.iterrows():
+    dt_started = datetime.utcnow()
     # Additives
     if row["additives_en"] == None:
         additive_list = ["Unknown"]
@@ -36,11 +49,14 @@ for index, row in df.iterrows():
         additive_list = row["additives_en"].split(',')
     additive_append = []
     for additive_ in additive_list:
-        c_id = session.query(Additive).filter_by(name=additive_).first()
-        if c_id == None:
+        additive_ = additive_.strip()
+        if additive_ in additive_inserted:
+            c_id = additive_inserted[additive_]
+        else:
             c_id = Additive(
                 name=additive_
             )
+            additive_inserted[additive_] = c_id
         additive_append.append(c_id)
     # Allergen
     if row["allergens"] == None:
@@ -49,11 +65,14 @@ for index, row in df.iterrows():
         allergen_list = row["allergens"].split(',')
     allergen_append = []
     for allergen_ in allergen_list:
-        c_id = session.query(Allergen).filter_by(name=allergen_).first()
-        if c_id == None:
+        allergen_ = allergen_.strip()
+        if allergen_ in allergen_inserted:
+            c_id = allergen_inserted[allergen_]
+        else:
             c_id = Allergen(
                 name=allergen_
             )
+            allergen_inserted[allergen_] = c_id
         allergen_append.append(c_id)
     # Brands
     if row["brands"] == None:
@@ -62,11 +81,14 @@ for index, row in df.iterrows():
         brand_list = row["brands"].split(',')
     brand_append = []
     for brand_ in brand_list:
-        c_id = session.query(Brand).filter_by(name=brand_).first()
-        if c_id == None:
+        brand_ = brand_.strip()
+        if brand_ in brand_inserted:
+            c_id = brand_inserted[brand_]
+        else:
             c_id = Brand(
                 name=brand_
             )
+            brand_inserted[brand_] = c_id
         brand_append.append(c_id)
     # Countries
     if row["countries_en"] == None:
@@ -75,11 +97,14 @@ for index, row in df.iterrows():
         country_list = row["countries_en"].split(',')
     country_append = []
     for country_ in country_list:
-        c_id = session.query(Country).filter_by(name_en=country_).first()
-        if c_id == None:
+        country_ = country_.strip()
+        if country_ in country_inserted:
+            c_id = country_inserted[country_]
+        else:
             c_id = Country(
                 name_en=country_
             )
+            country_inserted[country_] = c_id
         country_append.append(c_id)
 
     # Categories
@@ -89,25 +114,31 @@ for index, row in df.iterrows():
         category_list = row["categories"].split(',')
     category_append = []
     for category_ in category_list:
-        c_id = session.query(Category).filter_by(name=category_).first()
-        if c_id == None:
+        category_ = category_.strip()
+        if category_ in category_inserted:
+            c_id = category_inserted[category_]
+        else:
             c_id = Category(
                 name=category_
             )
+            category_inserted[category_] = c_id
         category_append.append(c_id)
 
-    # Countries
+    # Origin
     if row["origins"] == None:
         country_list = ["Unknown"]
     else:
         country_list = row["origins"].split(',')
     origin_append = []
     for country_ in country_list:
-        c_id = session.query(Country).filter_by(name_en=country_).first()
-        if c_id == None:
+        country_ = country_.strip()
+        if country_ in country_inserted:
+            c_id = country_inserted[country_]
+        else:
             c_id = Country(
                 name_en=country_
             )
+            country_inserted[country_] = c_id
         origin_append.append(c_id)
     # Emb
     if row["emb_codes"] == None:
@@ -116,11 +147,14 @@ for index, row in df.iterrows():
         emb_list = row["emb_codes"].split(',')
     emb_append = []
     for emb_ in emb_list:
-        c_id = session.query(Emb).filter_by(name=emb_).first()
-        if c_id == None:
+        emb_ = emb_.strip()
+        if emb_ in emb_inserted:
+            c_id = emb_inserted[emb_]
+        else:
             c_id = Emb(
                 name=emb_
             )
+            emb_inserted[emb_] = c_id
         emb_append.append(c_id)   
     # Labels
     if row["labels"] == None:
@@ -129,11 +163,14 @@ for index, row in df.iterrows():
         label_list = row["labels"].split(',')
     label_append = []
     for label_ in label_list:
-        c_id = session.query(Label).filter_by(name=label_).first()
-        if c_id == None:
+        label_ = label_.strip()
+        if label_ in label_inserted:
+            c_id = label_inserted[label_]
+        else:
             c_id = Label(
                 name=label_
             )
+            label_inserted[label_] = c_id
         label_append.append(c_id)
     # Package
     if row["packaging"] == None:
@@ -142,11 +179,14 @@ for index, row in df.iterrows():
         packaging_list = row["packaging"].split(',')
     packaging_append = []
     for packaging_ in packaging_list:
-        c_id = session.query(Package).filter_by(name=packaging_).first()
-        if c_id == None:
+        packaging_ = packaging_.strip()
+        if packaging_ in packaging_inserted:
+            c_id = packaging_inserted[packaging_]
+        else:
             c_id = Package(
                 name=packaging_
             )
+            packaging_inserted[packaging_] = c_id
         packaging_append.append(c_id)
     # Traces
     if row["traces_en"] == None:
@@ -155,11 +195,14 @@ for index, row in df.iterrows():
         trace_list = row["traces_en"].split(',')
     trace_append = []
     for trace_ in trace_list:
-        c_id = session.query(Trace).filter_by(name=trace_).first()
-        if c_id == None:
+        trace_ = trace_.strip()
+        if trace_ in trace_inserted:
+            c_id = trace_inserted[trace_]
+        else:
             c_id = Trace(
                 name=trace_
             )
+            trace_inserted[trace_] = c_id
         trace_append.append(c_id)
     # Stores
     if row["stores"] == None:
@@ -168,12 +211,17 @@ for index, row in df.iterrows():
         store_list = row["stores"].split(',')
     store_append = []
     for store_ in store_list:
-        c_id = session.query(Store).filter_by(name=store_).first()
-        if c_id == None:
+        store_ = store_.strip()
+        if store_ in store_inserted:
+            c_id = store_inserted[store_]
+        else:
             c_id = Store(
                 name=store_
             )
+            store_inserted[store_] = c_id
         store_append.append(c_id)
+    dt_ended = datetime.utcnow()
+    # print((dt_ended - dt_started).total_seconds())
     # Products
     product = Product(
         code=row["code"],
@@ -357,10 +405,23 @@ for index, row in df.iterrows():
     for s in store_append:
         product.stores.append(s)
     try:
-        session.add(product)
-        session.commit()
+        products.append(product)
+        if index % 2000 == 0:
+            session.add_all(products)
+            session.commit()
+            products = []
+            print(f"{datetime.utcnow()} {index}/{length} {index/length}")
     except IntegrityError as e :
+        error = e.orig.pgerror
+        if "duplicate key value" in error:
+            code_err = error.split('Key (code)=(')[1].split(') already exists.')[0]
+            print(f"Duplicate code found : {code_err}")
+        else:
+            print("x")
+            pass
+        # if ""
         session.rollback()
         pass
+session.add_all(products)
 session.commit()
 session.close()

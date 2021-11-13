@@ -1,3 +1,4 @@
 config.json
 datascience/
 *.pyc
+en.openfoodfacts.org.products.csv

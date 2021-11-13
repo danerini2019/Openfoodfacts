@@ -7,4 +7,4 @@ class City(Base):
     id = Column(BigInteger, primary_key=True) 
     name = Column(String, nullable=False)
     countryId = Column(BigInteger, ForeignKey('Country.id')) 
-    country = relationship('Country', back_populates='cities')
+    # country = relationship('Country', back_populates='cities')
