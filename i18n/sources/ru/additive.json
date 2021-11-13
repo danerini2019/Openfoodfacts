@@ -1,0 +1,2298 @@
+[
+    {
+        "id": 1,
+        "name": "Unknown"
+    },
+    {
+        "id": 2,
+        "name": "E296 - Malic acid"
+    },
+    {
+        "id": 3,
+        "name": "E330 - Citric acid"
+    },
+    {
+        "id": 4,
+        "name": "E552 - Calcium silicate"
+    },
+    {
+        "id": 5,
+        "name": "E950 - Acesulfame k"
+    },
+    {
+        "id": 6,
+        "name": "E955 - Sucralose"
+    },
+    {
+        "id": 7,
+        "name": "E150 - Caramel"
+    },
+    {
+        "id": 8,
+        "name": "E160a - Carotene"
+    },
+    {
+        "id": 9,
+        "name": "E202 - Potassium sorbate"
+    },
+    {
+        "id": 10,
+        "name": "E316 - Sodium erythorbate"
+    },
+    {
+        "id": 11,
+        "name": "E466 - Sodium carboxy methyl cellulose"
+    },
+    {
+        "id": 12,
+        "name": "E406 - Agar"
+    },
+    {
+        "id": 13,
+        "name": "E300 - Ascorbic acid"
+    },
+    {
+        "id": 14,
+        "name": "E503 - Ammonium carbonates"
+    },
+    {
+        "id": 15,
+        "name": "E500 - Sodium carbonates"
+    },
+    {
+        "id": 16,
+        "name": "E500ii - Sodium hydrogen carbonate"
+    },
+    {
+        "id": 17,
+        "name": "E503ii - Ammonium hydrogen carbonate"
+    },
+    {
+        "id": 18,
+        "name": "E250 - Sodium nitrite"
+    },
+    {
+        "id": 19,
+        "name": "E252 - Potassium nitrate"
+    },
+    {
+        "id": 20,
+        "name": "E14XX - Modified Starch"
+    },
+    {
+        "id": 21,
+        "name": "E262 - Sodium acetates"
+    },
+    {
+        "id": 22,
+        "name": "E262i - Sodium acetate"
+    },
+    {
+        "id": 23,
+        "name": "E326 - Potassium lactate"
+    },
+    {
+        "id": 24,
+        "name": "E306 - Tocopherol-rich extract"
+    },
+    {
+        "id": 25,
+        "name": "E322 - Lecithins"
+    },
+    {
+        "id": 26,
+        "name": "E322i - Lecithin"
+    },
+    {
+        "id": 27,
+        "name": "E410 - Locust bean gum"
+    },
+    {
+        "id": 28,
+        "name": "E422 - Glycerol"
+    },
+    {
+        "id": 29,
+        "name": "E1422 - Acetylated distarch adipate"
+    },
+    {
+        "id": 30,
+        "name": "E450 - Diphosphates"
+    },
+    {
+        "id": 31,
+        "name": "E472b - Lactic acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 32,
+        "name": "E472e - Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 33,
+        "name": "E475 - Polyglycerol esters of fatty acids"
+    },
+    {
+        "id": 34,
+        "name": "E481 - Sodium stearoyl-2-lactylate"
+    },
+    {
+        "id": 35,
+        "name": "E160b - Annatto"
+    },
+    {
+        "id": 36,
+        "name": "E101 - Riboflavin"
+    },
+    {
+        "id": 37,
+        "name": "E101i - Riboflavin"
+    },
+    {
+        "id": 38,
+        "name": "E341 - Calcium phosphates"
+    },
+    {
+        "id": 39,
+        "name": "E341i - Monocalcium phosphate"
+    },
+    {
+        "id": 40,
+        "name": "E415 - Xanthan gum"
+    },
+    {
+        "id": 41,
+        "name": "E471 - Mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 42,
+        "name": "E220 - Sulphur dioxide"
+    },
+    {
+        "id": 43,
+        "name": "E965 - Maltitol"
+    },
+    {
+        "id": 44,
+        "name": "E331 - Sodium citrates"
+    },
+    {
+        "id": 45,
+        "name": "E331iii - Trisodium citrate"
+    },
+    {
+        "id": 46,
+        "name": "E451 - Triphosphates"
+    },
+    {
+        "id": 47,
+        "name": "E451i - Pentasodium triphosphate"
+    },
+    {
+        "id": 48,
+        "name": "E517 - Ammonium sulphate"
+    },
+    {
+        "id": 49,
+        "name": "E1100 - Alpha-Amylase"
+    },
+    {
+        "id": 50,
+        "name": "E203 - Calcium sorbate"
+    },
+    {
+        "id": 51,
+        "name": "E420 - Sorbitol"
+    },
+    {
+        "id": 52,
+        "name": "E440 - Pectins"
+    },
+    {
+        "id": 53,
+        "name": "E102 - Tartrazine"
+    },
+    {
+        "id": 54,
+        "name": "E110 - Sunset yellow FCF"
+    },
+    {
+        "id": 55,
+        "name": "E407 - Carrageenan"
+    },
+    {
+        "id": 56,
+        "name": "E170 - Calcium carbonates"
+    },
+    {
+        "id": 57,
+        "name": "E170i - Calcium carbonate"
+    },
+    {
+        "id": 58,
+        "name": "E270 - Lactic acid"
+    },
+    {
+        "id": 59,
+        "name": "E211 - Sodium benzoate"
+    },
+    {
+        "id": 60,
+        "name": "E122 - Azorubine"
+    },
+    {
+        "id": 61,
+        "name": "E124 - Ponceau 4r"
+    },
+    {
+        "id": 62,
+        "name": "E131 - Patent blue v"
+    },
+    {
+        "id": 63,
+        "name": "E414 - Acacia gum"
+    },
+    {
+        "id": 64,
+        "name": "E901 - White and yellow beeswax"
+    },
+    {
+        "id": 65,
+        "name": "E903 - Carnauba wax"
+    },
+    {
+        "id": 66,
+        "name": "E904 - Shellac"
+    },
+    {
+        "id": 67,
+        "name": "E999 - Quillaia extract"
+    },
+    {
+        "id": 68,
+        "name": "E1400 - Dextrin"
+    },
+    {
+        "id": 69,
+        "name": "E235 - Natamycin"
+    },
+    {
+        "id": 70,
+        "name": "E281 - Sodium propionate"
+    },
+    {
+        "id": 71,
+        "name": "E325 - Sodium lactate"
+    },
+    {
+        "id": 72,
+        "name": "E460 - Cellulose"
+    },
+    {
+        "id": 73,
+        "name": "E129 - Allura red ac"
+    },
+    {
+        "id": 74,
+        "name": "E132 - Indigotine"
+    },
+    {
+        "id": 75,
+        "name": "E133 - Brilliant blue FCF"
+    },
+    {
+        "id": 76,
+        "name": "E171 - Titanium dioxide"
+    },
+    {
+        "id": 77,
+        "name": "E339ii - Disodium phosphate"
+    },
+    {
+        "id": 78,
+        "name": "E420i - D-sorbitol"
+    },
+    {
+        "id": 79,
+        "name": "E473 - Sucrose esters of fatty acids"
+    },
+    {
+        "id": 80,
+        "name": "E420ii - Sorbitol syrup"
+    },
+    {
+        "id": 81,
+        "name": "E120 - Cochineal"
+    },
+    {
+        "id": 82,
+        "name": "E153 - Vegetable carbon"
+    },
+    {
+        "id": 83,
+        "name": "E336 - Potassium tartrates"
+    },
+    {
+        "id": 84,
+        "name": "E412 - Guar gum"
+    },
+    {
+        "id": 85,
+        "name": "E433 - Polyoxyethylene sorbitan monooleate"
+    },
+    {
+        "id": 86,
+        "name": "E500i - Sodium carbonate"
+    },
+    {
+        "id": 87,
+        "name": "E263 - Calcium acetate"
+    },
+    {
+        "id": 88,
+        "name": "E450i - Disodium diphosphate"
+    },
+    {
+        "id": 89,
+        "name": "E200 - Sorbic acid"
+    },
+    {
+        "id": 90,
+        "name": "E501 - Potassium carbonates"
+    },
+    {
+        "id": 91,
+        "name": "E501ii - Potassium hydrogen carbonate"
+    },
+    {
+        "id": 92,
+        "name": "E163 - Anthocyanins"
+    },
+    {
+        "id": 93,
+        "name": "E224 - Potassium metabisulphite"
+    },
+    {
+        "id": 94,
+        "name": "E951 - Aspartame"
+    },
+    {
+        "id": 95,
+        "name": "E150d - Sulphite ammonia caramel"
+    },
+    {
+        "id": 96,
+        "name": "E338 - Phosphoric acid"
+    },
+    {
+        "id": 97,
+        "name": "E141 - Copper complexes of chlorophylls and chlorophyllins"
+    },
+    {
+        "id": 98,
+        "name": "E141ii - Copper complexes of chlorophyllins"
+    },
+    {
+        "id": 99,
+        "name": "E161b - Lutein"
+    },
+    {
+        "id": 100,
+        "name": "E332 - Potassium citrates"
+    },
+    {
+        "id": 101,
+        "name": "E282 - Calcium propionate"
+    },
+    {
+        "id": 102,
+        "name": "E301 - Sodium ascorbate"
+    },
+    {
+        "id": 103,
+        "name": "E401 - Sodium alginate"
+    },
+    {
+        "id": 104,
+        "name": "E160c - Paprika extract"
+    },
+    {
+        "id": 105,
+        "name": "E223 - Sodium metabisulphite"
+    },
+    {
+        "id": 106,
+        "name": "E385 - Calcium disodium ethylenediaminetetraacetate"
+    },
+    {
+        "id": 107,
+        "name": "E621 - Monosodium glutamate"
+    },
+    {
+        "id": 108,
+        "name": "E392 - Extracts of rosemary"
+    },
+    {
+        "id": 109,
+        "name": "E160ai - Beta-carotene"
+    },
+    {
+        "id": 110,
+        "name": "E529 - Calcium oxide"
+    },
+    {
+        "id": 111,
+        "name": "E502 - Carbonates"
+    },
+    {
+        "id": 112,
+        "name": "E280 - Propionic acid"
+    },
+    {
+        "id": 113,
+        "name": "E435 - Polyoxyethylene sorbitan monostearate"
+    },
+    {
+        "id": 114,
+        "name": "E924a - Potassium bromate"
+    },
+    {
+        "id": 115,
+        "name": "E260 - Acetic acid"
+    },
+    {
+        "id": 116,
+        "name": "E343 - Magnesium phosphates"
+    },
+    {
+        "id": 117,
+        "name": "E551 - Silicon dioxide"
+    },
+    {
+        "id": 118,
+        "name": "E1103 - Invertase"
+    },
+    {
+        "id": 119,
+        "name": "E222 - Sodium bisulphite"
+    },
+    {
+        "id": 120,
+        "name": "E150a - Plain caramel"
+    },
+    {
+        "id": 121,
+        "name": "E150c - Ammonia caramel"
+    },
+    {
+        "id": 122,
+        "name": "E341ii - Dicalcium phosphate"
+    },
+    {
+        "id": 123,
+        "name": "E965ii - Maltitol syrup"
+    },
+    {
+        "id": 124,
+        "name": "E967 - Xylitol"
+    },
+    {
+        "id": 125,
+        "name": "E162 - Beetroot red"
+    },
+    {
+        "id": 126,
+        "name": "E960 - Steviol glycosides"
+    },
+    {
+        "id": 127,
+        "name": "E627 - Disodium guanylate"
+    },
+    {
+        "id": 128,
+        "name": "E631 - Disodium inosinate"
+    },
+    {
+        "id": 129,
+        "name": "E100 - Curcumin"
+    },
+    {
+        "id": 130,
+        "name": "E262ii - Sodium diacetate"
+    },
+    {
+        "id": 131,
+        "name": "E524 - Sodium hydroxide"
+    },
+    {
+        "id": 132,
+        "name": "E570 - Fatty acids"
+    },
+    {
+        "id": 133,
+        "name": "E464 - Hydroxypropyl methyl cellulose"
+    },
+    {
+        "id": 134,
+        "name": "E476 - Polyglycerol polyricinoleate"
+    },
+    {
+        "id": 135,
+        "name": "E127 - Erythrosine"
+    },
+    {
+        "id": 136,
+        "name": "E445 - Glycerol esters of wood rosin"
+    },
+    {
+        "id": 137,
+        "name": "E428 - Gelatine"
+    },
+    {
+        "id": 138,
+        "name": "E905 - Synthetic wax"
+    },
+    {
+        "id": 139,
+        "name": "E905a - Mineral oil"
+    },
+    {
+        "id": 140,
+        "name": "E297 - Fumaric acid"
+    },
+    {
+        "id": 141,
+        "name": "E334 - L(+)-tartaric acid"
+    },
+    {
+        "id": 142,
+        "name": "E221 - Sodium sulphite"
+    },
+    {
+        "id": 143,
+        "name": "E640 - Glycine and its sodium salt"
+    },
+    {
+        "id": 144,
+        "name": "E640i - Glycine"
+    },
+    {
+        "id": 145,
+        "name": "E320 - Butylated hydroxyanisole (bha)"
+    },
+    {
+        "id": 146,
+        "name": "E340 - Potassium phosphates"
+    },
+    {
+        "id": 147,
+        "name": "E340ii - Dipotassium phosphate"
+    },
+    {
+        "id": 148,
+        "name": "E452 - Polyphosphates"
+    },
+    {
+        "id": 149,
+        "name": "E452i - Sodium polyphosphate"
+    },
+    {
+        "id": 150,
+        "name": "E541 - Sodium aluminium phosphate"
+    },
+    {
+        "id": 151,
+        "name": "E554 - Sodium aluminium silicate"
+    },
+    {
+        "id": 152,
+        "name": "E339 - Sodium phosphates"
+    },
+    {
+        "id": 153,
+        "name": "E450iii - Tetrasodium diphosphate"
+    },
+    {
+        "id": 154,
+        "name": "E407a - Processed eucheuma seaweed"
+    },
+    {
+        "id": 155,
+        "name": "E251 - Sodium nitrate"
+    },
+    {
+        "id": 156,
+        "name": "E509 - Calcium chloride"
+    },
+    {
+        "id": 157,
+        "name": "E920 - L-cysteine hydrochloride"
+    },
+    {
+        "id": 158,
+        "name": "E160aiii - Beta-carotene from blakeslea trispora"
+    },
+    {
+        "id": 159,
+        "name": "E160 - Carotenoids"
+    },
+    {
+        "id": 160,
+        "name": "E1105 - Lysozyme"
+    },
+    {
+        "id": 161,
+        "name": "E212 - Potassium benzoate"
+    },
+    {
+        "id": 162,
+        "name": "E290 - Carbon dioxide"
+    },
+    {
+        "id": 163,
+        "name": "E336i - Monopotassium tartrate"
+    },
+    {
+        "id": 164,
+        "name": "E516 - Calcium sulphate"
+    },
+    {
+        "id": 165,
+        "name": "E510 - Ammonium chloride"
+    },
+    {
+        "id": 166,
+        "name": "E930 - Calcium peroxide"
+    },
+    {
+        "id": 167,
+        "name": "E461 - Methyl cellulose"
+    },
+    {
+        "id": 168,
+        "name": "E175 - Gold"
+    },
+    {
+        "id": 169,
+        "name": "E900 - Dimethylpolysiloxane and Methylphenylpolysiloxane"
+    },
+    {
+        "id": 170,
+        "name": "E900a - Dimethyl polysiloxane"
+    },
+    {
+        "id": 171,
+        "name": "E553 - Magnesium silicates or Talc"
+    },
+    {
+        "id": 172,
+        "name": "E553b - Talc"
+    },
+    {
+        "id": 173,
+        "name": "E535 - Sodium ferrocyanide"
+    },
+    {
+        "id": 174,
+        "name": "E491 - Sorbitan monostearate"
+    },
+    {
+        "id": 175,
+        "name": "E1505 - Triethyl citrate"
+    },
+    {
+        "id": 176,
+        "name": "E160aii - Plant carotenes"
+    },
+    {
+        "id": 177,
+        "name": "E332ii - Tripotassium citrate"
+    },
+    {
+        "id": 178,
+        "name": "E501i - Potassium carbonate"
+    },
+    {
+        "id": 179,
+        "name": "E327 - Calcium lactate"
+    },
+    {
+        "id": 180,
+        "name": "E333 - Calcium citrates"
+    },
+    {
+        "id": 181,
+        "name": "E472a - Acetic acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 182,
+        "name": "E331i - Monosodium citrate"
+    },
+    {
+        "id": 183,
+        "name": "E350 - Sodium malates"
+    },
+    {
+        "id": 184,
+        "name": "E350ii - Sodium hydrogen malate"
+    },
+    {
+        "id": 185,
+        "name": "E152 - Black 7984"
+    },
+    {
+        "id": 186,
+        "name": "E1520 - Propylene Glycol"
+    },
+    {
+        "id": 187,
+        "name": "E418 - Gellan gum"
+    },
+    {
+        "id": 188,
+        "name": "E172 - Iron oxides and iron hydroxides"
+    },
+    {
+        "id": 189,
+        "name": "E460i - Microcrystalline cellulose"
+    },
+    {
+        "id": 190,
+        "name": "E521 - Aluminium sodium sulphate"
+    },
+    {
+        "id": 191,
+        "name": "E210 - Benzoic acid"
+    },
+    {
+        "id": 192,
+        "name": "E403 - Ammonium alginate"
+    },
+    {
+        "id": 193,
+        "name": "E404 - Calcium alginate"
+    },
+    {
+        "id": 194,
+        "name": "E575 - Glucono-delta-lactone"
+    },
+    {
+        "id": 195,
+        "name": "E460ii - Powdered cellulose"
+    },
+    {
+        "id": 196,
+        "name": "E579 - Iron gluconate"
+    },
+    {
+        "id": 197,
+        "name": "E477 - Propane-1‚2-diol esters of fatty acids"
+    },
+    {
+        "id": 198,
+        "name": "E307 - Alpha-tocopherol"
+    },
+    {
+        "id": 199,
+        "name": "E315 - Erythorbic acid"
+    },
+    {
+        "id": 200,
+        "name": "E968 - Erythritol"
+    },
+    {
+        "id": 201,
+        "name": "E942 - Nitrous oxide"
+    },
+    {
+        "id": 202,
+        "name": "E319 - Tertiary-butylhydroquinone (tbhq)"
+    },
+    {
+        "id": 203,
+        "name": "E1200 - Polydextrose"
+    },
+    {
+        "id": 204,
+        "name": "E958 - Glycyrrhizin"
+    },
+    {
+        "id": 205,
+        "name": "E492 - Sorbitan tristearate"
+    },
+    {
+        "id": 206,
+        "name": "E585 - Ferrous lactate"
+    },
+    {
+        "id": 207,
+        "name": "E140 - Chlorophylls and Chlorophyllins"
+    },
+    {
+        "id": 208,
+        "name": "E140i - Chlorophylls"
+    },
+    {
+        "id": 209,
+        "name": "E636 - Maltol"
+    },
+    {
+        "id": 210,
+        "name": "E555 - Potassium aluminium silicate"
+    },
+    {
+        "id": 211,
+        "name": "E572 - Magnesium stearate"
+    },
+    {
+        "id": 212,
+        "name": "E953 - Isomalt"
+    },
+    {
+        "id": 213,
+        "name": "E321 - Butylated hydroxytoluene"
+    },
+    {
+        "id": 214,
+        "name": "E339iii - Trisodium phosphate"
+    },
+    {
+        "id": 215,
+        "name": "E1519 - Benzyl alcohol"
+    },
+    {
+        "id": 216,
+        "name": "E307c - Alpha-tocopherol"
+    },
+    {
+        "id": 217,
+        "name": "E304 - Fatty acid esters of ascorbic acid"
+    },
+    {
+        "id": 218,
+        "name": "E304i - Ascorbyl palmitate"
+    },
+    {
+        "id": 219,
+        "name": "E905b - Petroleum jelly"
+    },
+    {
+        "id": 220,
+        "name": "E285 - Sodium tetraborate (borax)"
+    },
+    {
+        "id": 221,
+        "name": "E421 - Mannitol"
+    },
+    {
+        "id": 222,
+        "name": "E160e - Beta-apo-8′-carotenal (c30)"
+    },
+    {
+        "id": 223,
+        "name": "E966 - Lactitol"
+    },
+    {
+        "id": 224,
+        "name": "E1510 - Ethanol"
+    },
+    {
+        "id": 225,
+        "name": "E452vi - Sodium tripolyphosphate"
+    },
+    {
+        "id": 226,
+        "name": "E234 - Nisin"
+    },
+    {
+        "id": 227,
+        "name": "E150b - Caustic sulphite caramel"
+    },
+    {
+        "id": 228,
+        "name": "E363 - Succinic acid"
+    },
+    {
+        "id": 229,
+        "name": "E405 - Propane-1‚2-diol alginate"
+    },
+    {
+        "id": 230,
+        "name": "E482 - Calcium stearoyl-2-lactylate"
+    },
+    {
+        "id": 231,
+        "name": "E520 - Aluminium sulphate"
+    },
+    {
+        "id": 232,
+        "name": "E514 - Sodium sulphates"
+    },
+    {
+        "id": 233,
+        "name": "E514i - Sodium sulphate"
+    },
+    {
+        "id": 234,
+        "name": "E550 - Sodium silicate"
+    },
+    {
+        "id": 235,
+        "name": "E160d - Lycopene"
+    },
+    {
+        "id": 236,
+        "name": "E916 - Calcium iodate"
+    },
+    {
+        "id": 237,
+        "name": "E1442 - Hydroxypropyl distarch phosphate"
+    },
+    {
+        "id": 238,
+        "name": "E927 - Azodicarbonamide and Carbamide"
+    },
+    {
+        "id": 239,
+        "name": "E927a - Azodicarbonamide"
+    },
+    {
+        "id": 240,
+        "name": "E225 - Calcium Disulphite"
+    },
+    {
+        "id": 241,
+        "name": "E416 - Karaya-gum"
+    },
+    {
+        "id": 242,
+        "name": "E961 - Neotame"
+    },
+    {
+        "id": 243,
+        "name": "E443 - Brominated vegetable oil"
+    },
+    {
+        "id": 244,
+        "name": "E329 - Magnesium lactate"
+    },
+    {
+        "id": 245,
+        "name": "E340i - Monopotassium phosphate"
+    },
+    {
+        "id": 246,
+        "name": "E355 - Adipic acid"
+    },
+    {
+        "id": 247,
+        "name": "E1504 - Ethyl acetate"
+    },
+    {
+        "id": 248,
+        "name": "E444 - Sucrose acetate isobutyrate"
+    },
+    {
+        "id": 249,
+        "name": "E413 - Tragacanth"
+    },
+    {
+        "id": 250,
+        "name": "E425 - Konjac"
+    },
+    {
+        "id": 251,
+        "name": "E341iii - Tricalcium phosphate"
+    },
+    {
+        "id": 252,
+        "name": "E339i - Monosodium phosphate"
+    },
+    {
+        "id": 253,
+        "name": "E310 - Propyl gallate"
+    },
+    {
+        "id": 254,
+        "name": "E143 - Fast Green FCF"
+    },
+    {
+        "id": 255,
+        "name": "E249 - Potassium nitrite"
+    },
+    {
+        "id": 256,
+        "name": "E503i - Ammonium carbonate"
+    },
+    {
+        "id": 257,
+        "name": "E515 - Potassium sulphates"
+    },
+    {
+        "id": 258,
+        "name": "E261 - Potassium acetate"
+    },
+    {
+        "id": 259,
+        "name": "E1104 - Lipase"
+    },
+    {
+        "id": 260,
+        "name": "E954 - Saccharin and its salts"
+    },
+    {
+        "id": 261,
+        "name": "E340iii - Tripotassium phosphate"
+    },
+    {
+        "id": 262,
+        "name": "E1518 - Glyceryl triacetate"
+    },
+    {
+        "id": 263,
+        "name": "E928 - Benzole peroxide"
+    },
+    {
+        "id": 264,
+        "name": "E216 - Propyl para-hydroxybenzoate"
+    },
+    {
+        "id": 265,
+        "name": "E637 - Ethyl maltol"
+    },
+    {
+        "id": 266,
+        "name": "E622 - Monopotassium glutamate"
+    },
+    {
+        "id": 267,
+        "name": "E530 - Magnesium oxide"
+    },
+    {
+        "id": 268,
+        "name": "E442 - Ammonium phosphatides"
+    },
+    {
+        "id": 269,
+        "name": "E343ii - Dimagnesium phosphate"
+    },
+    {
+        "id": 270,
+        "name": "E417 - Tara gum"
+    },
+    {
+        "id": 271,
+        "name": "E917 - Potassium iodate"
+    },
+    {
+        "id": 272,
+        "name": "E474 - Sucroglycerides"
+    },
+    {
+        "id": 273,
+        "name": "E302 - Calcium ascorbate"
+    },
+    {
+        "id": 274,
+        "name": "E522 - Aluminium potassium sulphate"
+    },
+    {
+        "id": 275,
+        "name": "E161g - Canthaxanthin"
+    },
+    {
+        "id": 276,
+        "name": "E450v - Tetrapotassium diphosphate"
+    },
+    {
+        "id": 277,
+        "name": "E218 - Methyl p-hydroxybenzoate"
+    },
+    {
+        "id": 278,
+        "name": "E432 - Polyoxyethylene sorbitan monolaurate"
+    },
+    {
+        "id": 279,
+        "name": "E925 - Chlorine"
+    },
+    {
+        "id": 280,
+        "name": "E324 - Ethoxyquin"
+    },
+    {
+        "id": 281,
+        "name": "E487 - Sodium dodecyl sulfate"
+    },
+    {
+        "id": 282,
+        "name": "E1102 - Glucose oxidase"
+    },
+    {
+        "id": 283,
+        "name": "E342 - Ammonium phosphate"
+    },
+    {
+        "id": 284,
+        "name": "E523 - Aluminium ammonium sulphate"
+    },
+    {
+        "id": 285,
+        "name": "E635 - Disodium 5'-ribonucleotide"
+    },
+    {
+        "id": 286,
+        "name": "E400 - Alginic acid"
+    },
+    {
+        "id": 287,
+        "name": "E391 - Phytic acid"
+    },
+    {
+        "id": 288,
+        "name": "E451ii - Pentapotassium triphosphate"
+    },
+    {
+        "id": 289,
+        "name": "E228 - Potassium bisulphite"
+    },
+    {
+        "id": 290,
+        "name": "E1101 - Protease"
+    },
+    {
+        "id": 291,
+        "name": "E553a - Magnesium silicates"
+    },
+    {
+        "id": 292,
+        "name": "E553ai - Magnesium silicate"
+    },
+    {
+        "id": 293,
+        "name": "E1201 - Polyvinylpyrrolidone"
+    },
+    {
+        "id": 294,
+        "name": "E472 - Acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 295,
+        "name": "E425i - Konjac gum"
+    },
+    {
+        "id": 296,
+        "name": "E375 - Nicotinic acid"
+    },
+    {
+        "id": 297,
+        "name": "E964 - Polyglycitol syrup"
+    },
+    {
+        "id": 298,
+        "name": "E1203 - Polyvinyl alcohol"
+    },
+    {
+        "id": 299,
+        "name": "E1521 - Polyethylene glycol"
+    },
+    {
+        "id": 300,
+        "name": "E941 - Nitrogen"
+    },
+    {
+        "id": 301,
+        "name": "E472d - Tartaric acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 302,
+        "name": "E528 - Magnesium hydroxide"
+    },
+    {
+        "id": 303,
+        "name": "E902 - Candelilla wax"
+    },
+    {
+        "id": 304,
+        "name": "E1204 - Pullulan"
+    },
+    {
+        "id": 305,
+        "name": "E620 - Glutamic acid"
+    },
+    {
+        "id": 306,
+        "name": "E174 - Silver"
+    },
+    {
+        "id": 307,
+        "name": "E450vii - Calcium dihydrogen diphosphate"
+    },
+    {
+        "id": 308,
+        "name": "E1503 - Castor oil"
+    },
+    {
+        "id": 309,
+        "name": "E265 - Dehydroacetic acid"
+    },
+    {
+        "id": 310,
+        "name": "E436 - Polyoxyethylene sorbitan tristearate"
+    },
+    {
+        "id": 311,
+        "name": "E352 - Calcium malates"
+    },
+    {
+        "id": 312,
+        "name": "E352i - Calcium malate"
+    },
+    {
+        "id": 313,
+        "name": "E505 - Ferrous carbonate"
+    },
+    {
+        "id": 314,
+        "name": "E160aiv - Algal carotenes"
+    },
+    {
+        "id": 315,
+        "name": "E242 - Dimethyl dicarbonate"
+    },
+    {
+        "id": 316,
+        "name": "E266 - Sodium dehydroacetate"
+    },
+    {
+        "id": 317,
+        "name": "E336ii - Dipotassium tartrate"
+    },
+    {
+        "id": 318,
+        "name": "E504 - Magnesium carbonates"
+    },
+    {
+        "id": 319,
+        "name": "E504i - Magnesium carbonate"
+    },
+    {
+        "id": 320,
+        "name": "E215 - Sodium ethyl p-hydroxybenzoate"
+    },
+    {
+        "id": 321,
+        "name": "E217 - Sodium propyl para-hydroxybenzoate"
+    },
+    {
+        "id": 322,
+        "name": "E219 - Sodium methyl p-hydroxybenzoate"
+    },
+    {
+        "id": 323,
+        "name": "E214 - Ethyl p-hydroxybenzoate"
+    },
+    {
+        "id": 324,
+        "name": "E576 - Sodium gluconate"
+    },
+    {
+        "id": 325,
+        "name": "E908 - Rice bran wax"
+    },
+    {
+        "id": 326,
+        "name": "E141i - Copper complexes of chlorophylls"
+    },
+    {
+        "id": 327,
+        "name": "E508 - Potassium chloride"
+    },
+    {
+        "id": 328,
+        "name": "E507 - Hydrochloric acid"
+    },
+    {
+        "id": 329,
+        "name": "E539 - Sodium thiosulfate"
+    },
+    {
+        "id": 330,
+        "name": "E226 - Calcium sulphite"
+    },
+    {
+        "id": 331,
+        "name": "E577 - Potassium gluconate"
+    },
+    {
+        "id": 332,
+        "name": "E641 - E641 food additive"
+    },
+    {
+        "id": 333,
+        "name": "E463 - Hydroxypropyl cellulose"
+    },
+    {
+        "id": 334,
+        "name": "E962 - Salt of aspartame-acesulfame"
+    },
+    {
+        "id": 335,
+        "name": "E943b - Isobutane"
+    },
+    {
+        "id": 336,
+        "name": "E944 - Propane"
+    },
+    {
+        "id": 337,
+        "name": "E625 - Magnesium diglutamate"
+    },
+    {
+        "id": 338,
+        "name": "E927b - Carbamide"
+    },
+    {
+        "id": 339,
+        "name": "E236 - Formic acid"
+    },
+    {
+        "id": 340,
+        "name": "E470a - Sodium/potassium and calcium salts of fatty acids"
+    },
+    {
+        "id": 341,
+        "name": "E511 - Magnesium chloride"
+    },
+    {
+        "id": 342,
+        "name": "E559 - Aluminium silicate"
+    },
+    {
+        "id": 343,
+        "name": "E140ii - Chlorophyllins"
+    },
+    {
+        "id": 344,
+        "name": "E173 - Aluminium"
+    },
+    {
+        "id": 345,
+        "name": "E452ii - Potassium polyphosphate"
+    },
+    {
+        "id": 346,
+        "name": "E364 - E364 food additive"
+    },
+    {
+        "id": 347,
+        "name": "E367 - Calcium fumarate"
+    },
+    {
+        "id": 348,
+        "name": "E121 - Citrus Red 2"
+    },
+    {
+        "id": 349,
+        "name": "E624 - Monoammonium glutamate"
+    },
+    {
+        "id": 350,
+        "name": "E462 - Ethyl cellulose"
+    },
+    {
+        "id": 351,
+        "name": "E311 - Octyl gallate"
+    },
+    {
+        "id": 352,
+        "name": "E123 - Amaranth"
+    },
+    {
+        "id": 353,
+        "name": "E457 - Alpha-Cyclodextrine"
+    },
+    {
+        "id": 354,
+        "name": "E512 - Stannous chloride"
+    },
+    {
+        "id": 355,
+        "name": "E450ii - Trisodium diphosphate"
+    },
+    {
+        "id": 356,
+        "name": "E1413 - Phosphated distarch phosphate"
+    },
+    {
+        "id": 357,
+        "name": "E380 - Triammonium citrate"
+    },
+    {
+        "id": 358,
+        "name": "E370 - 1‚4-Heptonolactone"
+    },
+    {
+        "id": 359,
+        "name": "E201 - Sodium sorbate"
+    },
+    {
+        "id": 360,
+        "name": "E307b - Alpha-tocopherol"
+    },
+    {
+        "id": 361,
+        "name": "E490 - Propylene glycol"
+    },
+    {
+        "id": 362,
+        "name": "E1450 - Starch sodium octenyl succinate"
+    },
+    {
+        "id": 363,
+        "name": "E1000 - Cholic acid"
+    },
+    {
+        "id": 364,
+        "name": "E350i - Sodium malate"
+    },
+    {
+        "id": 365,
+        "name": "E913 - Lanolin"
+    },
+    {
+        "id": 366,
+        "name": "E905c - Petroleum wax"
+    },
+    {
+        "id": 367,
+        "name": "E905ci - Microcrystalline wax"
+    },
+    {
+        "id": 368,
+        "name": "E365 - Sodium fumarate"
+    },
+    {
+        "id": 369,
+        "name": "E333iii - Tricalcium citrate"
+    },
+    {
+        "id": 370,
+        "name": "E525 - Potassium hydroxide"
+    },
+    {
+        "id": 371,
+        "name": "E957 - Thaumatin"
+    },
+    {
+        "id": 372,
+        "name": "E1404 - Oxidised starch"
+    },
+    {
+        "id": 373,
+        "name": "E165 - E165 food additive"
+    },
+    {
+        "id": 374,
+        "name": "E472g - Succinylated monoglycerides"
+    },
+    {
+        "id": 375,
+        "name": "E921 - L-cysteine hydrochloride monohydrate"
+    },
+    {
+        "id": 376,
+        "name": "E1202 - Polyvinylpolypyrrolidone"
+    },
+    {
+        "id": 377,
+        "name": "E419 - Gum ghatti"
+    },
+    {
+        "id": 378,
+        "name": "E470ai - Sodium salts of fatty acids"
+    },
+    {
+        "id": 379,
+        "name": "E331ii - Disodium citrate"
+    },
+    {
+        "id": 380,
+        "name": "E515i - Potassium sulphate"
+    },
+    {
+        "id": 381,
+        "name": "E164 - Saffron"
+    },
+    {
+        "id": 382,
+        "name": "E1414 - Acetylated distarch phosphate"
+    },
+    {
+        "id": 383,
+        "name": "E172ii - Red iron oxide"
+    },
+    {
+        "id": 384,
+        "name": "E514ii - Sodium hydrogen sulphate"
+    },
+    {
+        "id": 385,
+        "name": "E170ii - Calcium hydrogen carbonate"
+    },
+    {
+        "id": 386,
+        "name": "E231 - Orthophenyl phenol"
+    },
+    {
+        "id": 387,
+        "name": "E386 - E386 food additive"
+    },
+    {
+        "id": 388,
+        "name": "E943a - Butane"
+    },
+    {
+        "id": 389,
+        "name": "E557 - Hemimorphite"
+    },
+    {
+        "id": 390,
+        "name": "E472c - Citric acid esters of mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 391,
+        "name": "E560 - Potassium silicate"
+    },
+    {
+        "id": 392,
+        "name": "E459 - Beta-cyclodextrine"
+    },
+    {
+        "id": 393,
+        "name": "E537 - Ferrous hexacyanomanganate"
+    },
+    {
+        "id": 394,
+        "name": "E180 - Litholrubine bk"
+    },
+    {
+        "id": 395,
+        "name": "E495 - Sorbitan monopalmitate"
+    },
+    {
+        "id": 396,
+        "name": "E424 - Curdlan"
+    },
+    {
+        "id": 397,
+        "name": "E130 - Indanthrene blue RS"
+    },
+    {
+        "id": 398,
+        "name": "E318 - Sodium erythorbin"
+    },
+    {
+        "id": 399,
+        "name": "E172iii - Yellow iron oxide"
+    },
+    {
+        "id": 400,
+        "name": "E949 - Hydrogen"
+    },
+    {
+        "id": 401,
+        "name": "E182 - Orcein"
+    },
+    {
+        "id": 402,
+        "name": "E470b - Magnesium salts of fatty acids"
+    },
+    {
+        "id": 403,
+        "name": "E239 - Hexamethylene tetramine"
+    },
+    {
+        "id": 404,
+        "name": "E233 - Thiabendazole"
+    },
+    {
+        "id": 405,
+        "name": "E104 - Quinoline yellow"
+    },
+    {
+        "id": 406,
+        "name": "E578 - Calcium gluconate"
+    },
+    {
+        "id": 407,
+        "name": "E411 - E411 food additive"
+    },
+    {
+        "id": 408,
+        "name": "E345 - Magnesium citrate"
+    },
+    {
+        "id": 409,
+        "name": "E1412 - Distarch phosphate"
+    },
+    {
+        "id": 410,
+        "name": "E1420 - Acetylated starch"
+    },
+    {
+        "id": 411,
+        "name": "E107 - Yellow 2G"
+    },
+    {
+        "id": 412,
+        "name": "E111 - Orange GGN"
+    },
+    {
+        "id": 413,
+        "name": "E103 - Alkannin"
+    },
+    {
+        "id": 414,
+        "name": "E106 - Flavin mononucleotide"
+    },
+    {
+        "id": 415,
+        "name": "E105 - E105 food additive"
+    },
+    {
+        "id": 416,
+        "name": "E906 - Benzoin resin"
+    },
+    {
+        "id": 417,
+        "name": "E632 - Dipotassium inosinate"
+    },
+    {
+        "id": 418,
+        "name": "E526 - Calcium hydroxide"
+    },
+    {
+        "id": 419,
+        "name": "E181 - Tannin"
+    },
+    {
+        "id": 420,
+        "name": "E558 - Bentonite"
+    },
+    {
+        "id": 421,
+        "name": "E142 - Green s"
+    },
+    {
+        "id": 422,
+        "name": "E409 - Arabinogalactan"
+    },
+    {
+        "id": 423,
+        "name": "E161j - Astaxanthin"
+    },
+    {
+        "id": 424,
+        "name": "E1440 - Hydroxypropyl starch"
+    },
+    {
+        "id": 425,
+        "name": "E914 - Oxidised polyethylene wax"
+    },
+    {
+        "id": 426,
+        "name": "E328 - Ammonium lactate"
+    },
+    {
+        "id": 427,
+        "name": "E1403 - Bleached starch"
+    },
+    {
+        "id": 428,
+        "name": "E1451 - Acetylated oxidised starch"
+    },
+    {
+        "id": 429,
+        "name": "E639 - E639 food additive"
+    },
+    {
+        "id": 430,
+        "name": "E440i - Non-amidated pectines"
+    },
+    {
+        "id": 431,
+        "name": "E536 - Potassium ferrocyanide"
+    },
+    {
+        "id": 432,
+        "name": "E440ii - Amidated pectin"
+    },
+    {
+        "id": 433,
+        "name": "E101ii - Riboflavin-5′-phosphate"
+    },
+    {
+        "id": 434,
+        "name": "E333ii - Dicalcium citrate"
+    },
+    {
+        "id": 435,
+        "name": "E333i - Monocalcium citrate"
+    },
+    {
+        "id": 436,
+        "name": "E470 - Sodium/potassium/calcium and magnesium salts of fatty acids"
+    },
+    {
+        "id": 437,
+        "name": "E313 - Ethyl gallate"
+    },
+    {
+        "id": 438,
+        "name": "E493 - Sorbitan monolaurate"
+    },
+    {
+        "id": 439,
+        "name": "E353 - Metatartaric acid"
+    },
+    {
+        "id": 440,
+        "name": "E312 - Dodecyl gallate"
+    },
+    {
+        "id": 441,
+        "name": "E952 - Cyclamic acid and its Na and Ca salts"
+    },
+    {
+        "id": 442,
+        "name": "E959 - Neohesperidine dihydrochalcone"
+    },
+    {
+        "id": 443,
+        "name": "E946 - Octafluorocyclobutane"
+    },
+    {
+        "id": 444,
+        "name": "E948 - Oxygen"
+    },
+    {
+        "id": 445,
+        "name": "E160f - Ethyl ester of beta-apo-8'-carotenic acid (C 30)"
+    },
+    {
+        "id": 446,
+        "name": "E479b - Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids"
+    },
+    {
+        "id": 447,
+        "name": "E440a - Pectin"
+    },
+    {
+        "id": 448,
+        "name": "E513 - Sulphuric acid"
+    },
+    {
+        "id": 449,
+        "name": "E284 - Boric acid"
+    },
+    {
+        "id": 450,
+        "name": "E469 - Enzymatically hydrolysed carboxymethylcellulose"
+    },
+    {
+        "id": 451,
+        "name": "E468 - Cross-linked sodium carboxymethylcellulose"
+    },
+    {
+        "id": 452,
+        "name": "E518 - Magnesium sulphate"
+    },
+    {
+        "id": 453,
+        "name": "E1001 - Choline salt"
+    },
+    {
+        "id": 454,
+        "name": "E172i - Black iron oxide"
+    },
+    {
+        "id": 455,
+        "name": "E1401 - Acid-treated modified starch"
+    },
+    {
+        "id": 456,
+        "name": "E494 - Sorbitan monooleate"
+    },
+    {
+        "id": 457,
+        "name": "E343i - Monomagnesium phosphate"
+    },
+    {
+        "id": 458,
+        "name": "E213 - Calcium benzoate"
+    },
+    {
+        "id": 459,
+        "name": "E309 - Delta-tocopherol"
+    },
+    {
+        "id": 460,
+        "name": "E307a - Alpha-tocopherol"
+    },
+    {
+        "id": 461,
+        "name": "E573 - Aluminium stearate"
+    },
+    {
+        "id": 462,
+        "name": "E905cii - Paraffin wax"
+    },
+    {
+        "id": 463,
+        "name": "E151 - Brilliant black bn"
+    },
+    {
+        "id": 464,
+        "name": "E542 - Bone phosphate"
+    },
+    {
+        "id": 465,
+        "name": "E538 - Calcium ferrocyanide"
+    },
+    {
+        "id": 466,
+        "name": "Isomaltose"
+    },
+    {
+        "id": 467,
+        "name": "E155 - Brown ht"
+    },
+    {
+        "id": 468,
+        "name": "E125 - Scarlet GN"
+    },
+    {
+        "id": 469,
+        "name": "E335 - Sodium tartrates"
+    },
+    {
+        "id": 470,
+        "name": "E303 - Potassium ascorbate"
+    },
+    {
+        "id": 471,
+        "name": "E938 - Argon"
+    },
+    {
+        "id": 472,
+        "name": "E304ii - Ascorbyl stearate"
+    },
+    {
+        "id": 473,
+        "name": "E450vi - Dicalcium diphosphate"
+    },
+    {
+        "id": 474,
+        "name": "E574 - Gluconic acid"
+    },
+    {
+        "id": 475,
+        "name": "E963 - Tagatose"
+    },
+    {
+        "id": 476,
+        "name": "E383 - Calcium glycerophosphate"
+    },
+    {
+        "id": 477,
+        "name": "E308 - Gamme-tocopherol"
+    },
+    {
+        "id": 478,
+        "name": "E504ii - Magnesium hydroxide carbonate"
+    },
+    {
+        "id": 479,
+        "name": "E425ii - Konjac glucomannan"
+    },
+    {
+        "id": 480,
+        "name": "E381 - Ferric ammonium citrate"
+    },
+    {
+        "id": 481,
+        "name": "E923 - Ammonium persulfate"
+    },
+    {
+        "id": 482,
+        "name": "de:Quellkohlensäure"
+    },
+    {
+        "id": 483,
+        "name": "E465 - Ethyl methyl cellulose"
+    },
+    {
+        "id": 484,
+        "name": "E366 - Potassium fumarate"
+    },
+    {
+        "id": 485,
+        "name": "E650 - Zinc acetate"
+    },
+    {
+        "id": 486,
+        "name": "E626 - Guanylic acid"
+    },
+    {
+        "id": 487,
+        "name": "E630 - Inosinic acid"
+    },
+    {
+        "id": 488,
+        "name": "E571 - E571 food additive"
+    },
+    {
+        "id": 489,
+        "name": "E430 - Polyoxyethylene (8) stearate"
+    },
+    {
+        "id": 490,
+        "name": "E166 - E166 food additive"
+    },
+    {
+        "id": 491,
+        "name": "E128 - Red 2G"
+    },
+    {
+        "id": 492,
+        "name": "E230 - Biphenyl"
+    },
+    {
+        "id": 493,
+        "name": "E357 - Potassium adipate"
+    },
+    {
+        "id": 494,
+        "name": "es:Potassium iodide"
+    },
+    {
+        "id": 495,
+        "name": "E337 - Potassium sodium tartrate"
+    },
+    {
+        "id": 496,
+        "name": "E402 - Potassium alginate"
+    },
+    {
+        "id": 497,
+        "name": "E283 - Potassium propionate"
+    },
+    {
+        "id": 498,
+        "name": "E910 - Wax ester"
+    },
+    {
+        "id": 499,
+        "name": "E390 - E390 food additive"
+    },
+    {
+        "id": 500,
+        "name": "E427 - Cassia gum"
+    },
+    {
+        "id": 501,
+        "name": "E640ii - Sodiumglycinate"
+    },
+    {
+        "id": 502,
+        "name": "E458 - Gamma-Cyclodextrine"
+    },
+    {
+        "id": 503,
+        "name": "E161 - Xanthophylls"
+    },
+    {
+        "id": 504,
+        "name": "E500iii - Sodium sesquicarbonate"
+    },
+    {
+        "id": 505,
+        "name": "E638 - E638 food additive"
+    },
+    {
+        "id": 506,
+        "name": "E527 - Ammonium hydroxide"
+    },
+    {
+        "id": 507,
+        "name": "E1410 - Monostarch phosphate"
+    },
+    {
+        "id": 508,
+        "name": "E335ii - Disodium tartrate"
+    },
+    {
+        "id": 509,
+        "name": "E1411 - Distarch glycerol"
+    },
+    {
+        "id": 510,
+        "name": "E161h - Zeaxanthin"
+    },
+    {
+        "id": 511,
+        "name": "E452iv - Calcium polyphosphate"
+    },
+    {
+        "id": 512,
+        "name": "E238 - Calcium formiate"
+    },
+    {
+        "id": 513,
+        "name": "E354 - Calcium tartrate"
+    },
+    {
+        "id": 514,
+        "name": "E965i - D-Maltitol"
+    },
+    {
+        "id": 515,
+        "name": "E586 - 4-hexylresorcinol"
+    },
+    {
+        "id": 516,
+        "name": "E332i - Monopotassium citrate"
+    },
+    {
+        "id": 517,
+        "name": "E15x - E15x food additive"
+    },
+    {
+        "id": 518,
+        "name": "E161c - Cryptoaxanthin"
+    },
+    {
+        "id": 519,
+        "name": "E323 - E323 food additive"
+    },
+    {
+        "id": 520,
+        "name": "E232 - Sodium orthophenyl phenol"
+    },
+    {
+        "id": 521,
+        "name": "E580 - Magnesium Gluconate"
+    },
+    {
+        "id": 522,
+        "name": "E431 - Polyoxyethylene (40) stearate"
+    },
+    {
+        "id": 523,
+        "name": "E446 - Succistearin"
+    },
+    {
+        "id": 524,
+        "name": "E628 - Dipotassium guanylate"
+    },
+    {
+        "id": 525,
+        "name": "E484 - Stearyl citrate"
+    },
+    {
+        "id": 526,
+        "name": "E240 - Formaldehyde"
+    },
+    {
+        "id": 527,
+        "name": "E496 - Sorbitan trioleate"
+    },
+    {
+        "id": 528,
+        "name": "de:Natürliche Quellkohlensäure"
+    },
+    {
+        "id": 529,
+        "name": "E429 - Peptone"
+    },
+    {
+        "id": 530,
+        "name": "E478 - Lactylated fatty acid esters of glycerol and propane-1"
+    },
+    {
+        "id": 531,
+        "name": "E368 - Ammonium fumarate"
+    },
+    {
+        "id": 532,
+        "name": "E470aiii - Calcium salts of fatty acids"
+    },
+    {
+        "id": 533,
+        "name": "E710 - Spiramycin"
+    },
+    {
+        "id": 534,
+        "name": "E515ii - Potassium hydrogen sulphate"
+    },
+    {
+        "id": 535,
+        "name": "E434 - Polyoxyethylene sorbitan monopalmitate"
+    },
+    {
+        "id": 536,
+        "name": "E553aii - Magnesium trisilicate"
+    },
+    {
+        "id": 537,
+        "name": "E540 - Dicalcium diphosphate"
+    },
+    {
+        "id": 538,
+        "name": "E909 - Spermaceti"
+    },
+    {
+        "id": 539,
+        "name": "E488 - Ethoxylated Mono- and Di-Glycerides"
+    },
+    {
+        "id": 540,
+        "name": "E926 - Chlorine dioxide"
+    },
+    {
+        "id": 541,
+        "name": "E452iii - Sodium calcium polyphosphate"
+    },
+    {
+        "id": 542,
+        "name": "E335i - Monosodium tartrate"
+    },
+    {
+        "id": 543,
+        "name": "E243 - Ethyl lauroyl arginate"
+    },
+    {
+        "id": 544,
+        "name": "E441 - Superglycerinated hydrogenated rapeseed oil"
+    },
+    {
+        "id": 545,
+        "name": "E519 - Copper sulphate"
+    },
+    {
+        "id": 546,
+        "name": "E486 - Calcium stearoyl fumarate"
+    },
+    {
+        "id": 547,
+        "name": "E1421 - Acetylated starch"
+    },
+    {
+        "id": 548,
+        "name": "E956 - Alitame"
+    },
+    {
+        "id": 549,
+        "name": "E1405 - Enzyme treated starch"
+    },
+    {
+        "id": 550,
+        "name": "E642 - E642 food additive"
+    },
+    {
+        "id": 551,
+        "name": "E359 - Ammonium adipate"
+    },
+    {
+        "id": 552,
+        "name": "E1517 - Glyceryl diacetate"
+    },
+    {
+        "id": 553,
+        "name": "E907 - Hydrogenated poly-1-decene"
+    },
+    {
+        "id": 554,
+        "name": "E426 - Soybean hemicellulose"
+    },
+    {
+        "id": 555,
+        "name": "E440b - Pectin amide"
+    },
+    {
+        "id": 556,
+        "name": "E126 - Ponceau 6R"
+    },
+    {
+        "id": 557,
+        "name": "E399 - Calcium lactobionate"
+    },
+    {
+        "id": 558,
+        "name": "E541i - Acid sodium aluminium phosphate"
+    },
+    {
+        "id": 559,
+        "name": "E450iv - Dipotassium dihydrogenpyrophosphate"
+    },
+    {
+        "id": 560,
+        "name": "E408 - Bakers yeast glycan"
+    },
+    {
+        "id": 561,
+        "name": "E543 - E543 food additive"
+    },
+    {
+        "id": 562,
+        "name": "E314 - Guaiacum"
+    },
+    {
+        "id": 563,
+        "name": "E227 - Calcium bisulphite"
+    },
+    {
+        "id": 564,
+        "name": "E351 - Potassium malate"
+    },
+    {
+        "id": 565,
+        "name": "E1205 - Basic methacrylate copolymer"
+    },
+    {
+        "id": 566,
+        "name": "E1430 - Distarch glycerine"
+    },
+    {
+        "id": 567,
+        "name": "E922 - Potassium persulfate"
+    },
+    {
+        "id": 568,
+        "name": "E1441 - Hydroxy propyl distarch glycerine"
+    },
+    {
+        "id": 569,
+        "name": "E629 - Calcium guanylate"
+    },
+    {
+        "id": 570,
+        "name": "E241 - E241 food additive"
+    },
+    {
+        "id": 571,
+        "name": "E317 - Erythorbin acid"
+    },
+    {
+        "id": 572,
+        "name": "E623 - Calcium diglutamate"
+    },
+    {
+        "id": 573,
+        "name": "E344 - E344 food additive"
+    },
+    {
+        "id": 574,
+        "name": "E546 - Magnesium pyrophosphate"
+    }
+]
