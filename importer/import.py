@@ -3,7 +3,7 @@
 # 1 - imports
 from datetime import date, datetime
 import pandas as pd
-from pandas import np
+import numpy as np
 
 from models.additive import Additive
 from models.allergen import Allergen
