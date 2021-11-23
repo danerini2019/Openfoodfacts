@@ -29,6 +29,7 @@ products = []
 df = pd.read_csv("en.openfoodfacts.org.products.csv", sep='\t', dtype={'code':str})
 df = df.replace({np.nan: None})
 df = df.drop_duplicates(subset=['code'], keep='last')
+print(df.head())
 length = len(df.index)
 additive_inserted = {}
 allergen_inserted = {}
@@ -54,7 +55,7 @@ for index, row in df.iterrows():
             c_id = additive_inserted[additive_]
         else:
             c_id = Additive(
-                name=additive_
+                name_en=additive_
             )
             additive_inserted[additive_] = c_id
         additive_append.append(c_id)
@@ -70,7 +71,7 @@ for index, row in df.iterrows():
             c_id = allergen_inserted[allergen_]
         else:
             c_id = Allergen(
-                name=allergen_
+                name_en=allergen_
             )
             allergen_inserted[allergen_] = c_id
         allergen_append.append(c_id)
@@ -144,7 +145,7 @@ for index, row in df.iterrows():
     if row["emb_codes"] == None:
         emb_list = ["Unknown"]
     else:
-        emb_list = row["emb_codes"].split(',')
+        emb_list = str(row["emb_codes"]).split(',')
     emb_append = []
     for emb_ in emb_list:
         emb_ = emb_.strip()
@@ -168,7 +169,7 @@ for index, row in df.iterrows():
             c_id = label_inserted[label_]
         else:
             c_id = Label(
-                name=label_
+                name_en=label_
             )
             label_inserted[label_] = c_id
         label_append.append(c_id)
@@ -184,7 +185,7 @@ for index, row in df.iterrows():
             c_id = packaging_inserted[packaging_]
         else:
             c_id = Package(
-                name=packaging_
+                name_en=packaging_
             )
             packaging_inserted[packaging_] = c_id
         packaging_append.append(c_id)
@@ -320,8 +321,8 @@ for index, row in df.iterrows():
         starch_100g = row["starch_100g"],
         polyols_100g = row["polyols_100g"],
         fiber_100g = row["fiber_100g"],
-        soluble_fiber_100g = row["-soluble-fiber_100g"],
-        insoluble_fiber_100g = row["-insoluble-fiber_100g"],
+        # soluble_fiber_100g = row["-soluble-fiber_100g"],
+        # insoluble_fiber_100g = row["-insoluble-fiber_100g"],
         proteins_100g = row["proteins_100g"],
         casein_100g = row["casein_100g"],
         serum_proteins_100g = row["serum-proteins_100g"],
