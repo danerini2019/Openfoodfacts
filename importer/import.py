@@ -41,6 +41,7 @@ label_inserted = {}
 packaging_inserted = {}
 trace_inserted = {}
 store_inserted = {}
+counter = 0
 for index, row in df.iterrows():
     dt_started = datetime.utcnow()
     # Additives
@@ -418,11 +419,12 @@ for index, row in df.iterrows():
             code_err = error.split('Key (code)=(')[1].split(') already exists.')[0]
             print(f"Duplicate code found : {code_err}")
         else:
-            print("x")
+            print("x" + str(counter))
             pass
         # if ""
         session.rollback()
         pass
+    counter += 1
 session.add_all(products)
 session.commit()
 session.close()
